@@ -1,0 +1,40 @@
+html
+  head
+    block stylesheet
+      link(rel='stylesheet', href='/css/font.css')
+      link(rel='stylesheet', href='/css/nav.css')
+      link(rel='stylesheet', href='/css/content.css')
+    block javascript
+      script(src="https://code.jquery.com/jquery-3.1.0.min.js")
+    title 우비세계
+  body
+    div.wrapper
+      div.title
+        h1 프리바람 우비세계
+      div.navbar
+        div.navcont
+          ul.nav
+            li 공지사항
+              div#dropmenu.dropcontent
+                a(href='#') 공지사항
+                a(href='#') 업데이트
+            li 커뮤니티
+              div#dropmenu.dropcontent
+                a(href='#') 자유게시판
+                a(href='#') 건의게시판
+                a(href='#') link3
+            li 게임정보
+              div#dropmenu.dropcontent
+                a(href='#') 공략가이드
+                a(href='#') 승급가이드
+                a(href='#') link3
+            li 자료실
+              div#dropmenu.dropcontent
+                a(href='#') 클라이언트
+                a(href='#') 접속기
+            li 마
+              div#dropmenu.dropcontent
+                a(href='#') link1
+                a(href='#') link2
+                a(href='#') link3
+      block content

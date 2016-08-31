@@ -1,0 +1,92 @@
+.wrapper{
+  margin: 0 auto;
+  width:1000px;
+}
+.navbar{
+  clear : both;
+  background-color: #1c5fb8;
+}
+
+.nav{
+  list-style-type: none;
+}
+
+.nav li{
+  float : left;
+  width : 20%;
+}
+
+.navbar ul{
+  line-height: 40px;
+  height: 40px;
+  width : 500px;
+  padding: 0;
+  margin : 0 auto;
+  text-align: center;
+  color : white;
+}
+
+
+.loginform{
+
+}
+
+.wrapper-logintext{
+  width:65%;
+  display : inline-block;
+  float : left;
+  height: 50px;
+}
+.wrapper-loginbtw{
+  width:25%;
+  float:left;
+  display: inline-block;
+}
+.loginbtw{
+  height : 50px;
+  background-color: white;
+  border: 1px solid #CCC;
+}
+.id{
+  height:50%;
+  width:100%;
+  padding-left: 5px;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-bottom: none;
+}
+.pw{
+  height:50%;
+  width:100%;
+  padding-left: 5px;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+}
+.nav li{
+  position: relative;
+  font-family: NanumGothicBold;
+
+}
+.dropcontent{
+  display:none;
+  position:absolute;
+  width:160%;
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+}
+.dropcontent a{
+
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #CCCCCC;
+  text-align: left;
+  padding : 3px 10px;
+}
+.nav li:hover .dropcontent{
+  display:block;
+  background-color:white;
+  text-decoration: none;
+}
+
+.main-content{
+  display:inline-block;
+}
